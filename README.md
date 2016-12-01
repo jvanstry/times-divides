@@ -1,4 +1,4 @@
-# gaggia_accademia
+# times-divides
 
 ## steps to run locally
 1. clone and cd to directory
