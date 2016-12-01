@@ -1,0 +1,36 @@
+{
+  "name": "Miss Ertel's Lovely Learning Exercise",
+  "description": "A small learning tool to teach kiddo's multiplication and division",
+  "version": "0.0.1",
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://www.github.com/jvanstry/gaggia_accademia.git"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "devDependencies": {
+    "browser-sync": "^2.17.6",
+    "gulp-jasmine-browser": "^1.7.1",
+    "gulp-less": "^3.3.0",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-util": "^3.0.7",
+    "phantomjs-prebuilt": "^2.1.13"
+  },
+  "dependencies": {
+    "ejs": "^2.5.2",
+    "express": "^4.14.0"
+  },
+  "engines": {
+    "node": "7.1.0"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "main": "app.js"
+}
